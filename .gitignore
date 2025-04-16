@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# PyQt UI compilation
+*.pyc
+*.pyo
+*.pyd
+*.qmlc
+*.qrc
+
+# Qt Designer files
+*.ui
+*.qrc
+
+# MediaPipe cache
+mediapipe/modules/face_detection/*.tflite
+mediapipe/modules/face_landmark/*.tflite
+mediapipe/modules/pose/*.tflite
+mediapipe/modules/*.pbtxt
+mediapipe/models/
+
+# OpenCV generated files
+*.xml
+*.jpg
+*.png
+*.bmp
+
+# VS Code settings
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Environment folders
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+*.env
+*.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# PyInstaller
+*.spec
+output/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
